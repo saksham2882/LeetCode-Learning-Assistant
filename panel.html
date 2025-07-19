@@ -1,0 +1,71 @@
+<!-- snippet that will be injected into the LeetCode page. -->
+
+<div id="panel">
+    <div id="header">
+        <h3>LeetCode Learning Assistant</h3>
+        <button id="close-btn">&times;</button>
+    </div>
+
+    <div id="main-content">
+
+        <div class="container">
+            <h4>1. Initial Hints</h4>
+            <button class="btn" data-stage="hints">
+                Reveal Hints
+            </button>
+            <button class="btn-retry" data-stage="hints" style="display:none;">
+                Retry
+            </button>
+            <div id="hints-content" class="content-box" style="display:none;"></div>
+        </div>
+
+        <div class="container">
+            <h4>2. Algorithmic Approach</h4>
+            <button class="btn" data-stage="approach">
+                Reveal Approach
+            </button>
+            <button class="btn-retry" data-stage="approach" style="display:none;">
+                Retry
+            </button>
+            <div id="approach-content" class="content-box" style="display:none;"></div>
+        </div>
+
+        <div class="container">
+            <h4>3. Pseudo-code</h4>
+            <button class="btn" data-stage="pseudo">
+                Reveal Pseudo-code
+            </button>
+            <button class="btn-retry" data-stage="pseudo" style="display:none;">
+                Retry
+            </button>
+            <div id="pseudo-content" class="content-box" style="display:none;"></div>
+        </div>
+
+        <div class="container">
+            <h4>4. Code Solution</h4>
+            <button class="btn" data-stage="solution">
+                Reveal Solution
+            </button>
+            <button class="btn-retry" data-stage="solution" style="display:none;">
+                Retry
+            </button>
+            <div id="solution-content" class="content-box" style="display:none;"></div>
+        </div>
+
+        <div class="container">
+            <h4>5. Complexity Analysis</h4>
+            <button class="btn" data-stage="complexity">
+                Reveal Complexity
+            </button>
+            <button class="btn-retry" data-stage="complexity" style="display:none;">
+                Retry
+            </button>
+            <div id="complexity-content" class="content-box" style="display:none;"></div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        created by Saksham Agrahari
+    </div>
+</div>
