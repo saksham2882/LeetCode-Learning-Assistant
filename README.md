@@ -3,6 +3,7 @@
 ![LeetCode Assistant Icon](/screenshots/banner.png)  
 _A Chrome extension to supercharge your LeetCode problem-solving with AI-powered guidance._
 
+---
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -18,25 +19,33 @@ _A Chrome extension to supercharge your LeetCode problem-solving with AI-powered
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 
+---
 ## Project Overview
 
-The **LeetCode Learning Assistant** is a Chrome extension designed to enhance your LeetCode problem-solving experience. It integrates directly into LeetCode problem pages, providing a sleek, sliding panel with **AI-powered** guidance using the **Gemini 2.5 Flash** API. From high-level hints to complete Java solutions and complexity analysis, this tool supports coders at all levels with a structured, step-by-step learning path. Its modern UI, robust error handling, and secure API key management make it a must-have for mastering coding challenges.
+The **LeetCode Learning Assistant** is a Chrome extension designed to enhance your LeetCode problem-solving experience. It integrates directly into LeetCode problem pages, providing a sleek, sliding panel with **AI-powered** guidance using the **Gemini 2.5 Flash** API. <br>
+From high-level hints to complete Java solutions and complexity analysis, this tool supports coders at all levels with a structured, step-by-step learning path. Its modern UI, robust error handling, and secure API key management make it a must-have for mastering coding challenges.
 
+---
 ## Features
 
-- **Seamless Integration**: Adds an "Analyze Problem" button on LeetCode problem pages.
-- **Structured Guidance**:
-  1. **Hints**: 3-4 concise, numbered hints to spark logical thinking without revealing solutions.
-  2. **Algorithmic Approach**: Outlines the optimal data structure and algorithm with numbered steps.
-  3. **Pseudocode**: Language-agnostic pseudocode in numbered steps for clarity.
-  4. **Solution**: Complete, well-commented Java code with a flow explanation.
-  5. **Complexity Analysis**: Time and space complexity with concise reasoning.
-- **Modern UI**: Responsive sliding panel with custom scrollbar and syntax-highlighted code.
-- **Secure API Key Storage**: Save your Gemini API key via the extension popup.
-- **Robust Error Handling**: Clear error messages and retry logic for API failures.
-- **Formatted Responses**: Markdown-formatted output with proper code blocks for readability.
+- **Seamless Integration :** Adds an "Analyze Problem" button on LeetCode problem pages.
 
+- **Structured Guidance :**
+    - **Hints :** 3-4 concise, numbered hints to spark logical thinking without revealing solutions.
+    - **Algorithmic Approach :** Outlines the optimal data structure and algorithm with numbered steps.
+    -  **Pseudocode :** Language-agnostic pseudocode in numbered steps for clarity.
+    -  **Solution :** Complete, well-commented Java code with a flow explanation.
+    -  **Complexity Analysis :** Time and space complexity with concise reasoning.
+      
+- **Modern UI :** Responsive sliding panel with custom scrollbar and syntax-highlighted code.
 
+- **Secure API Key Storage :** Save your Gemini API key via the extension popup.
+  
+- **Robust Error Handling :** Clear error messages and retry logic for API failures.
+  
+- **Formatted Responses :** Markdown-formatted output with proper code blocks for readability.
+
+---
 ## Browser Support
 
 The extension is fully tested and supported on:
@@ -45,14 +54,14 @@ The extension is fully tested and supported on:
 
 It also work on other Chromium-based browsers (e.g., **Brave**, **Opera**), but official support to Chrome and Edge.
 
-
+---
 ## Prerequisites
 
 Before installing, ensure you have:
 - **Google Chrome** or **Microsoft Edge** (latest version recommended).
 - A valid **Gemini API key** from [Google AI Studio](https://aistudio.google.com/).
 
-
+---
 ## Screenshots
 
 | Image | Description |
@@ -62,16 +71,16 @@ Before installing, ensure you have:
 | ![Assistant Panel](/screenshots/panel.png) | Shows the main sliding panel of the LeetCode Learning Assistant. |
 | ![Generated Content](/screenshots/hint.png) | Displays AI-generated content (e.g., hints or code) in the panel. |
 
-
+---
 ## How It Works
 
-### API Key Setup
+- ### API Key Setup
 1. Click the **extension icon** in the browser toolbar to open the **API Key** popup.
 2. Enter your **Gemini API key** in the input field.
 3. Click **"Save Key"** to store the key securely.
 4. Verify the confirmation message (green for success, red for errors).
 
-### Using in LeetCode
+- ### Using in LeetCode
 1. Navigate to a LeetCode problem page (e.g., `https://leetcode.com/problems/two-sum/`).
 2. Click the **"Analyze Problem"** button to open the sliding assistant panel.
 3. Use the **"Reveal"** buttons to access:
@@ -82,7 +91,7 @@ Before installing, ensure you have:
    - **Complexity**: Time and space complexity analysis.
 4. Click the close button (×) to hide the panel.
 
-
+---
 ## Installation
 
 Follow these steps to set up the extension:
@@ -111,7 +120,7 @@ Follow these steps to set up the extension:
    - Visit a LeetCode problem page (e.g., `https://leetcode.com/problems/two-sum/`).
    - Confirm the "Analyze Problem" button appears.
 
-
+---
 ## File Structure
 
 ```
@@ -127,6 +136,7 @@ leetcode-assistant/
 └── styles.css             # Styles for the button and panel
 ```
 
+---
 ## Technologies Used
 
 | Technology | Description |
@@ -137,6 +147,7 @@ leetcode-assistant/
 | **Gemini 2.5 Flash Model API** | Generates AI-powered hints, approaches, pseudocode, solutions, and complexity analysis. |
 | **Chrome Extension APIs** | Enables storage (`chrome.storage`), messaging (`chrome.runtime`), and tab interactions (`chrome.tabs`). |
 
+---
 ## Contributing
 
 We welcome contributions to enhance the LeetCode Learning Assistant! To contribute:
