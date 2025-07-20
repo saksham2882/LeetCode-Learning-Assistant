@@ -84,11 +84,11 @@ Before installing, ensure you have:
 1. Navigate to a LeetCode problem page (e.g., `https://leetcode.com/problems/two-sum/`).
 2. Click the **"Analyze Problem"** button to open the sliding assistant panel.
 3. Use the **"Reveal"** buttons to access:
-   - **Hints**: 3-4 short hints to guide your thinking.
-   - **Approach**: Data structure and algorithm details.
-   - **Pseudocode**: Step-by-step pseudocode for the optimal solution.
-   - **Solution**: Java code with comments and explanation.
-   - **Complexity**: Time and space complexity analysis.
+   - **Hints :** 3-4 short hints to guide your thinking.
+   - **Approach :** Data structure and algorithm details.
+   - **Pseudocode :** Step-by-step pseudocode for the optimal solution.
+   - **Solution :** Java code with comments and explanation.
+   - **Complexity :** Time and space complexity analysis.
 4. Click the close button (×) to hide the panel.
 
 ---
@@ -96,27 +96,27 @@ Before installing, ensure you have:
 
 Follow these steps to set up the extension:
 
-1. **Clone or Download the Repository**:
+1. Clone or Download the Repository:
    ```bash
    git clone https://github.com/saksham2882/LeetCode-Learning-Assistant.git
    ```
    Or download and extract the ZIP file.
 
-2. **Open Extensions Page**:
+2. Open Extensions Page:
    - **Chrome**: Go to `chrome://extensions/`.
    - **Edge**: Go to `edge://extensions/`.
 
-3. **Enable Developer Mode**:
+3. Enable Developer Mode:
    - Toggle "Developer mode" (top-right) to ON.
 
-4. **Load Unpacked Extension**:
+4. Load Unpacked Extension:
    - Click "Load unpacked" and select the `leetcode-learning-assistant` folder.
 
-5. **Set API Key**:
+5. Set API Key:
    - Click the extension icon in the browser toolbar.
    - Enter your Gemini API key in the popup and click "Save Key".
 
-6. **Verify Setup**:
+6. Verify Setup:
    - Visit a LeetCode problem page (e.g., `https://leetcode.com/problems/two-sum/`).
    - Confirm the "Analyze Problem" button appears.
 
@@ -141,36 +141,37 @@ leetcode-assistant/
 
 | Technology | Description |
 |------------|-------------|
-| **HTML5**  | Structures the popup and assistant panel UI. |
-| **CSS3**   | Styles the UI with responsive design and animations. |
-| **JavaScript** | Powers the extension’s logic and API communication. |
-| **Gemini 2.5 Flash Model API** | Generates AI-powered hints, approaches, pseudocode, solutions, and complexity analysis. |
-| **Chrome Extension APIs** | Enables storage (`chrome.storage`), messaging (`chrome.runtime`), and tab interactions (`chrome.tabs`). |
+| HTML5  | Structures the popup and assistant panel UI. |
+| CSS3   | Styles the UI with responsive design and animations. |
+| JavaScript | Powers the extension’s logic and API communication. |
+| Gemini 2.5 Flash Model API | Generates AI-powered hints, approaches, pseudocode, solutions, and complexity analysis. |
+| Chrome Extension APIs | Enables storage (`chrome.storage`), messaging (`chrome.runtime`), and tab interactions (`chrome.tabs`). |
 
 ---
 ## Contributing
 
 We welcome contributions to enhance the LeetCode Learning Assistant! To contribute:
 
-1. **Fork the Repository**:
+1. Fork the Repository:
    ```bash
    git fork https://github.com/saksham2882/LeetCode-Learning-Assistant.git
    ```
-2. **Create a Feature Branch**:
+2. Create a Feature Branch:
    ```bash
    git checkout -b feature/your-feature-name
    ```
-3. **Make Changes**: Implement your feature or bug fix.
-4. **Test Locally**:
+3. Make Changes: Implement your feature or bug fix.
+
+4. Test Locally:
    - Load the updated extension in Chrome/Edge via "Load unpacked".
    - Test on multiple LeetCode problems to ensure compatibility.
-5. **Commit and Push**:
+5. Commit and Push:
    ```bash
    git commit -m "Add your feature description"
    git push origin feature/your-feature-name
    ```
-6. **Submit a Pull Request**: Open a PR on GitHub with a detailed description of changes.
-7. **Report Issues**: Open an issue for bugs or feature suggestions.
+6. Submit a Pull Request: Open a PR on GitHub with a detailed description of changes.
+7. Report Issues: Open an issue for bugs or feature suggestions.
 
 
 
