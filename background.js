@@ -139,7 +139,7 @@ function generatePrompt(problem, stage) {
                                     `;
         case 'pseudo':
             return baseInstruction + `  ### 📋 Pseudo Code (Optimal Only)
-                                        Write **simple pseudo-code** using English + code-style keywords.
+                                        Write **simple pseudo-code** using English + java code-style keywords.
                                         - Use plain steps like:
                                             - \`function()\`
                                             - \`if condition:\`
@@ -148,8 +148,8 @@ function generatePrompt(problem, stage) {
                                         ✅ Format it using a markdown code block.
                                     `;
         case 'solution':
-            return baseInstruction + `  ### ✅ JavaScript Code (Optimal Only)
-                                        Give clean, **simple** JavaScript code in 10-15 lines max.
+            return baseInstruction + `  ### ✅ Java Code (Optimal Only)
+                                        Give clean, **simple** Java code in 10-15 lines max.
                                         - Add only **1-2 important comments**, no over commenting.
                                         - Use good variable names.
                                         - After code, write **a short 3-step explanation**.
