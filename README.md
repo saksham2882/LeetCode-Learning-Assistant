@@ -20,6 +20,19 @@ _A Chrome extension to supercharge your LeetCode problem-solving with AI-powered
 - [Contributing](#contributing)
 
 ---
+
+## Demo 🎥
+
+Check out a quick demo on youtube! 
+
+<a href="https://youtu.be/OhWyguzOLOg?si=HWSQhsuwXnn7AH2F">
+  <img src="/screenshots/demo-img.png" alt="Demo Video" width="100%">
+</a>
+
+<br>
+
+---
+
 ## Project Overview
 
 The **LeetCode Learning Assistant** is a Chrome extension designed to enhance your LeetCode problem-solving experience. It integrates directly into LeetCode problem pages, providing a sleek, sliding panel with **AI-powered** guidance using the **Gemini 2.5 Flash** API. <br>
